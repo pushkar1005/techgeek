@@ -1,0 +1,13 @@
+.bodyStyle{
+  background-color: yellow;
+}
+
+.borderCheck{
+  border-width: 2px;
+  border-style: solid;
+  border-color: green;
+}
+
+.minHeight{
+  min-height: 500px;
+}

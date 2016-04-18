@@ -6,9 +6,13 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body style="background-color:yellow">
-<h1> header </h1>
+<body class="bodyStyle">
+
+
+
 <%= yield %>
-<footer>foooterby vivek ranjan</footer>
+
+<%= render 'layouts/footer' %>
+
 </body>
 </html>
